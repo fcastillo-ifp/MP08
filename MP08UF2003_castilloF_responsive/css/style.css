@@ -1,0 +1,109 @@
+:root {
+    --colorT: white;
+    --color0: #5b3000;
+    --color1: #66462c;
+    --color2: #726953;
+    --color3: #76877D;
+    --colorB: limegreen;
+}
+
+@font-face {
+    font-family: 'VIRUST';
+    src: url('../font/Virust/VIRUSTRegular.eot');
+    src: url('../font/Virust/VIRUSTRegular.eot?#iefix') format('embedded-opentype'),
+        url('../font/Virust/VIRUSTRegular.woff2') format('woff2'),
+        url('../font/Virust/VIRUSTRegular.woff') format('woff'),
+        url('../font/Virust/VIRUSTRegular.ttf') format('truetype'),
+        url('../font/Virust/VIRUSTRegular.svg#VIRUSTRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+h1 {
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'VIRUST';
+    font-weight: normal;
+    font-style: normal;
+    color: var(--colorT);
+}
+
+p {
+    padding: 1rem;
+    background: var(--color0);
+    cursor: zoom-in;
+    color: var(--colorT);
+    width: 50vw;
+    height: 50vw;
+    overflow: hidden;
+}
+
+.progres {
+    height: 10px;
+    width: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--colorB);
+    scale: 0 1;
+    animation: analitzador linear;
+    animation-timeline: scroll();
+        -o-animation-timeline: scroll();
+        -moz-animation-timeline: scroll();
+        -webkit-animation-timeline: scroll();
+    transform-origin: left;
+}
+
+@keyframes analitzador {
+    to {
+        scale: 1 1;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    /* aquí tindrem el disseny per smartphones */
+
+    body {
+        background: var(--color1);
+    }
+
+    h1 {
+        font-size: 1rem;
+    }
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 1279px){
+
+    /* aquí tindrem el disseny per tablet */
+
+    body {
+        background: var(--color2);
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+
+@media screen and (min-width: 1280px) {
+
+    /* aquí tindrem el disseny per ordinador */
+
+    body {
+        background: var(--color3);
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    p {
+        columns: 2;
+    }
+}
+

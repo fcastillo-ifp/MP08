@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedly</title>
+    <style>
+        div {background-color: ;}
+
+        .navegacio {
+            height: 40px;
+            background-color: #fff;
+        }
+
+        .coneix {
+            height: 550px;
+            background-color: #6c3;
+        }
+
+        .tot {
+            height: 641px;
+            background-color: #fff;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="navegacio">
+        <h1>Coneix feedly. Un millor lector.</h1>
+        <p>Milions de ments curioses utilitzen feedly per consumir el seu món digital i establir grans converses. </p>
+        <p>Més de 3.000.000 d'usuaris de Google Reader ja han canviat a feedly.</p>
+    </div>
+    <div class="coneix"></div>
+    <div class="tot"></div>
+    <div class="util"></div>
+    <div class="rapid"></div>
+    <div class="facil"></div>
+    <div class="arreu"></div>
+
+
+
+</body>
+</html>
+
