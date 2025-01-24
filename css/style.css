@@ -28,7 +28,6 @@ nav {
     top: 0;
     left: 0;
     right: 0;
-    background: transparent;
     z-index: 5000;
     text-align: center;
     padding-top: 30px;
@@ -258,4 +257,52 @@ h1 {
   
   .footer-info a:hover {
     color: #fff;
+  }
+
+  @media screen and (max-width: 480px) {
+    nav ul {
+      width: 50vh;
+      display: flex;
+      flex-direction: column;
+      line-height: 20px;
+      text-align: right;
+    }
+
+    nav li {
+      font-size: 12px;
+    }
+
+    nav {
+      height: 12vh;
+      padding-bottom: 2vh;
+      background-color: transparent;
+      position: absolute;
+    }
+
+    h1 {
+      font-size: 26px;
+    }
+
+    .p2 ul {
+      width: 50vh;
+      margin: 0 auto;
+      display: block;
+      padding-left: 7vh;
+    }
+
+    .p2 {
+      padding-bottom: 10vh;
+    }
+
+    .p2 li {
+      width: 15vh;
+      height: 15vh;
+      line-height: 150px;
+      margin: 1vh;
+    }
+
+    .contact-form input, .contact-form textarea {
+      width: 95%;
+    }
+
   }
