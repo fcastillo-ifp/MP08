@@ -92,10 +92,10 @@ h1 {
     display: block;
     border-radius: 50%;
     float: left;
-    line-height: 200px;
+    line-height: 230px;
     text-align: center;
     margin: 20px;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 700;
     color: black;
 
@@ -172,7 +172,7 @@ h1 {
   }
   
   .contact-form input, .contact-form textarea {
-    width: 100%;
+    width: 95%;
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ddd;
@@ -280,7 +280,7 @@ h1 {
     }
 
     h1 {
-      font-size: 26px;
+      font-size: 22px;
     }
 
     .p2 ul {
@@ -299,10 +299,7 @@ h1 {
       height: 15vh;
       line-height: 150px;
       margin: 1vh;
-    }
-
-    .contact-form input, .contact-form textarea {
-      width: 95%;
+      font-size: 18px;
     }
 
   }
