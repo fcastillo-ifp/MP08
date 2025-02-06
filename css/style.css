@@ -119,24 +119,26 @@ h1 {
  }
 }
 /* Main */
+
+
 .contact-page {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  max-width: 1200px;
+  max-width: 100%;
   padding: 15px 15px;
   background: rgb(0,0,0);
   background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(47,47,47,1) 50%, rgba(0,0,0,1) 100%);
   color: white;
 }
 .contact-form, .contact-info {
-  flex: 1 1 45%;
   background: rgb(0,0,0);
   background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(47,47,47,1) 50%, rgba(0,0,0,1) 100%);
   padding: 20px;
   margin: 10px;
   box-shadow: 0 2px 5px white;
   border-radius: 8px;
+  width: 100%;
 }
 .contact-form h2, .contact-info h2 {
   margin-bottom: 15px;
@@ -149,11 +151,13 @@ h1 {
   font-weight: bold;
 }
 .contact-form input, .contact-form textarea {
-  width: 95%;
+  width: 98%;
   padding: 10px;
   margin-bottom: 15px;
   border: 1px solid #ddd;
   border-radius: 5px;
+  color:#ff6347;
+  font: 1em/1.25em Arial, Helvetica, sans-serif;
 }
 .contact-form button {
   background-color: white;
